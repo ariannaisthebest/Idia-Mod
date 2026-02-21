@@ -36,7 +36,7 @@
 		}
 	},
   	{
-		"LogName": "Maru Dialogue", //Dialogue changes for Maru
+		"LogName": "Maru Dialogue", 
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Maru",
 		"Entries": {
@@ -45,7 +45,7 @@
 		}
 	},
   	{
-		"LogName": "Sebastian Dialogue", //Dialogue changes for Sebastian
+		"LogName": "Sebastian Dialogue", 
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Sebastian",
 		"Entries": {  
@@ -55,7 +55,7 @@
 }
 	},
   	{
-		"LogName": "Robin Dialogue", //Dialogue changes for Robin
+		"LogName": "Robin Dialogue", 
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Robin",
 		"Entries": { 
@@ -67,7 +67,7 @@
 		}
 	},
   	{
-		"LogName": "Marriage Dialogue", //Dialogue change for general marriage dialogue.
+		"LogName": "Marriage Dialogue", 
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/MarriageDialogue",
 		"Entries": {
@@ -75,7 +75,7 @@
 		}
 	},
   	{
-		"LogName": "Sebastian Marriage Dialogue", //Dialogue changes for Sebastian's marriage dialogue. 
+		"LogName": "Sebastian Marriage Dialogue", 
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 		"Entries": {
@@ -88,7 +88,7 @@
 	},
 	
   	{
-		"LogName": "Saloon Dialogue",//Dialogue Changes for the Saloon Events (10 heart and evil route)
+		"LogName": "Saloon Dialogue",
 		"Action": "EditData",
 		"Target": "Data/Events/Saloon",
 		"Entries": {
@@ -98,7 +98,7 @@
 		}
 	},
   	{
-		"LogName": "Beach Dialogue",//Dialogue Changes for the Beach Events
+		"LogName": "Beach Dialogue",
 		"Action": "EditData",
 		"Target": "Data/Events/Beach",
 		"Entries": {
@@ -106,7 +106,7 @@
 		}
 	},
   	{
-		"LogName": "Mountain Dialogue",//Dialogue Changes for the Mountain Events
+		"LogName": "Mountain Dialogue",
 		"Action": "EditData",
 		"Target": "Data/Events/Mountain",
 		"Entries": { 
@@ -114,8 +114,9 @@
 }
 	},
   	{
-		"LogName": "Samhouse Dialogue",//Dialogue Changes for the Band Event in Sams House
+		"LogName": "Samhouse Dialogue",
 		"Action": "EditData",
 		"Target": "Data/Events/Samhouse",
-		"Entries": { //Name changes. 
+		"Entries": { 
         "44/f Sam 500/p Sam": "sampractice/-1000 -1000/farmer 4 15 1 Sam 17 16 2 Sebastian 18 18 0/positionOffset Sebastian 32 -31/skippable/animate Sam false true 200 20 21/showFrame Sebastian 41/viewport 17 16 true/move farmer 8 0 0/pause 500/doAction 12 14/move farmer 0 -2 1/move farmer 4 0 2/pause 9000/stopAnimation Sam/showFrame Sebastian 8/pause 1000/faceDirection Sam 0/pause 800/speak Sam \"Oh, hi @! Futaba and I were just having a little 'jam session'.\"/move farmer 0 3 1/faceDirection Sam 3/faceDirection Sebastian 3/speak Sam \"We're trying to start a band, but we still don't know what kind of music to make. There's too many possibilities.\"/pause 500/emote Sebastian 28/faceDirection Sam 2/pause 500/emote Sam 16/faceDirection Sam 3/speak Sam \"#$q 76 null#Say, @... what kind of music do you like?#$r 76 50 Event_band1#Cheerful pop music.#$r 77 50 Event_band2#Experimental noise rock.#$r 78 50 Event_band3#Hi-Energy dance music.#$r 79 50 Event_band4#Honky-tonky country music.\"/move Sam 0 2 1/speak Sam \"What do you say, Futaba? Should we do this?\"/pause 300/faceDirection Sebastian 0/pause 300/faceDirection Sebastian 3/speak Sebastian \"...Okay.\"/pause 500/faceDirection Sam 0/move Sam 0 -2 3/speak Sam \"Thanks for the help, @. With my guitar skills, and Futaba's wizardry on the synthesizer, we're gonna be a screaming success. I'm convinced of it!$h\"/faceDirection Sam 2/speak Sam \"Now I just need to find someone to play drums...$u\"/pause 500/end",
+
